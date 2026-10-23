@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./index-CSCEgB46.js";var i=e(n()),a=t();function o(){let[e,t]=(0,i.useState)(`/scene.html`);return(0,i.useEffect)(()=>{let n=`${r(window.location.hostname,window.location.pathname)??``}/scene.html`;n!==e&&t(n)},[e]),(0,a.jsx)(`iframe`,{className:`scene-frame`,src:e,title:`Живописная деревня`})}export{o as component};
